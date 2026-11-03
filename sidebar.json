@@ -1,0 +1,718 @@
+[
+  {
+    "text": "快速接入",
+    "link": "/quick-start"
+  },
+  {
+    "text": "接口总览",
+    "link": "/"
+  },
+  {
+    "text": "议价单管理",
+    "link": "/packages/negotiation",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "处理议价单",
+        "link": "/goods/discuss/process-discuss",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "获取议价单列表",
+        "link": "/goods/discuss/query-discuss-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "价格证明材料上传",
+        "link": "/goods/discuss/upload-discuss-file",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "商品视频",
+    "link": "/packages/product-video",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "创建商品视频转换任务",
+        "link": "/goods/product/create-video-transform-task",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "获取视频转换结果",
+        "link": "/goods/product/query-video-transform-task",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "营销活动报名",
+    "link": "/packages/campaign",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "报名活动",
+        "link": "/campaigns/register-campaign",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询活动报名记录列表",
+        "link": "/campaigns/registration-records",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询活动可报商品列表",
+        "link": "/campaigns/registrable-product-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询活动详情",
+        "link": "/campaigns/campaign-detail",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询可报活动列表",
+        "link": "/campaigns/campaign-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "取消活动报名",
+        "link": "/campaigns/cancel-registration",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "店铺信息查询",
+    "link": "/packages/shop-info",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "查询店铺信息",
+        "link": "/openapi-business-backend/query-store-info",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "开发者接入",
+    "link": "/packages/developer-access",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "获取openKeyId和secretKey",
+        "link": "/auth/get-by-token",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "商家服务-商品",
+    "link": "/packages/merchant-goods",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "查询是否支持自定义属性值",
+        "link": "/goods/get-custom-attribute-permission-config",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "打印合规标签",
+        "link": "/goods-compliance/label-print",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "获取环保标配置规则",
+        "link": "/goods-quality/environmental-label-rule/list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "获取全量耗材类型和耗材材质信息",
+        "link": "/goods-quality/environmental-label-rule/material-quality-tree",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "批量打印环保标",
+        "link": "/goods-quality/environmental-label-rule/print",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "商品打印条码",
+        "link": "/goods/print-barcode",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "商品接口-根据条码批量获取SKC与尺码",
+        "link": "/goods/batch-skc-size",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "商品接口-全量查询SKC/SKU/设计款号关系列表",
+        "link": "/goods/number-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "商品管理",
+    "link": "/packages/goods",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "本地图片上传",
+        "link": "/goods/upload-pic",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询店铺站点和币种信息（新）",
+        "link": "/goods/query-site-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询店铺站点和站点币种（旧）",
+        "link": "/openapi-business-backend/site/query",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询分类可用属性",
+        "link": "/goods/query-attribute-template",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询关联属性填写规则",
+        "link": "/goods/get-associated-attribute-rules",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询建议零售价审核记录",
+        "link": "/goods-recommend-retail-price-audit/search",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询建议零售价填写规则",
+        "link": "/goods/query-recommend-retail-price-rule",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询可用品牌列表",
+        "link": "/goods/query-brand-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询可用IP列表",
+        "link": "/goods/query-ip-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询商家发品额度",
+        "link": "/goods-publish-quotas/detail",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询商家sku是否已存在",
+        "link": "/goods/product/check-suppliersku-repeated",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询商品建议零售价",
+        "link": "/goods-recommend-retail-price/search",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询商品删除审核记录",
+        "link": "/goods-delete-logs/search",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询商品审核状态",
+        "link": "/goods/query-document-state",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询是否可修改销售属性",
+        "link": "/goods-specs/check-modify-permission",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询修改销售属性审核记录",
+        "link": "/goods-specs/modify-logs/search",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "撤回商品审核",
+        "link": "/goods/revoke-product",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "店铺查商品末级分类",
+        "link": "/goods/query-category-tree",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "更新成本价",
+        "link": "/goods/update-cost",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "获取成本价涨价原因枚举值",
+        "link": "/goods/query-change-price-reason",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "获取全量环保耗材信息",
+        "link": "/goods-quality/environmental-label-rule/material-quality-tree-v2",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      },
+      {
+        "text": "确认店铺是否可发品",
+        "link": "/goods/product/check-publish-permission",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      },
+      {
+        "text": "确认商品是否可编辑",
+        "link": "/goods/product/check-edit-permission",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "商品部分编辑",
+        "link": "/goods/product/partialedit",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "商品发布/编辑",
+        "link": "/goods/product/publishoredit",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "商品发布字段规范",
+        "link": "/goods/query-publish-fill-in-standard",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "商品列表接口",
+        "link": "/openapi-business-backend/product/query",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "商品删除预校验",
+        "link": "/goods/check-deletable",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "商品综合查询",
+        "link": "/goods/searchproduct",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "提交建议零售价",
+        "link": "/goods-recommend-retail-price/batch-save",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "提交修改销售属性",
+        "link": "/goods-specs/update",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "图片链接转换",
+        "link": "/goods/transform-pic",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "图文识别推荐类目",
+        "link": "/goods/image-category-suggestion",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "sku商品详情查询（即将作废）",
+        "link": "/openapi-business-backend/product/full-detail",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "spu商品详情查询",
+        "link": "/goods/spu-info",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "上传商品证书",
+    "link": "/packages/product-certificate",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "查询商品证书要求和审核状态",
+        "link": "/goods/get-certificate-rule",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询证书所需上传资料",
+        "link": "/goods/get-all-certificate-type-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询证书所需上传资料（新）",
+        "link": "/goods/certificate/get-all-certificate-type-list-v2",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "店铺证书池创建/编辑",
+        "link": "/goods/save-or-update-supplier-certificate",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "商品证书池创建/编辑",
+        "link": "/goods/save-or-update-certificate-pool",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "上传证书文件",
+        "link": "/goods/upload-certificate-file",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "SKC绑定商品证书池",
+        "link": "/goods/save-certificate-pool-skc-bind",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "商品合规资质",
+    "link": "/packages/compliance",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "绑定SKC和代理公司",
+        "link": "/goods-compliance/save-skc-agency",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "绑定SKC和实拍图",
+        "link": "/goods-compliance/skc-save-label",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询代理公司列表",
+        "link": "/goods-compliance/agency-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询警告语证书的填写规则",
+        "link": "/goods-compliance/query-warning-certificate-rules",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询资质证书列表",
+        "link": "/goods-certificates/search",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询资质证书填写规则",
+        "link": "/goods-certificate-schemas/detail",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询SKC的代理公司绑定要求",
+        "link": "/goods-compliance/skc-agency-detail",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询SKC的合规信息要求",
+        "link": "/goods-compliance-requirements/list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询SKC的警告语绑定状态",
+        "link": "/goods-compliance/query-skc-warning-status",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询SKC的实拍图要求",
+        "link": "/goods-compliance/skc-label-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询SKC可用的标签模板",
+        "link": "/goods-compliance/get-label-template",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "创建/编辑资质证书",
+        "link": "/goods-certificates/save",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "更新SKC的警告语",
+        "link": "/goods-compliance/update-skc-warning-certificate",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "上传实拍图图片",
+        "link": "/goods-compliance/upload-skc-label-picture",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "上传资质证书文件",
+        "link": "/goods-certificate-files/upload",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "SKC绑定资质证书",
+        "link": "/goods-certificates/bind",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "采购单履约",
+    "link": "/packages/purchase-fulfillment",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "备货单审核列表",
+        "link": "/idms/review-orders",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询发货单列表",
+        "link": "/shipping/delivery",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      },
+      {
+        "text": "​查询货代信息",
+        "link": "/pfmp/shipping/thirdpartyandchannellist",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询商品备货信息列表",
+        "link": "/openapi-business-backend/stock-goods-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询智能拆包结果接口",
+        "link": "/purchase/intelligent-packing-result",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询SHEIN仓库的收件信息",
+        "link": "/order/storage-receiver-info",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      },
+      {
+        "text": "查询SHEIN合作物流产品",
+        "link": "/shipping/express-company-list-v2",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询SHEIN合作物流预估运费",
+        "link": "/openapi-business-backend/purchase-estimated-fee",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "创建发货单",
+        "link": "/shipping/ordertoshipping",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "打印物流面单",
+        "link": "/pfmp/print-purchase-logisticslabel",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "打印箱唛或包裹面单",
+        "link": "/order/print-package",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "发货单维度打印面单",
+        "link": "/shipping/delivery/print-package",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "发货基本信息查询接口",
+        "link": "/shipping/basic",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      },
+      {
+        "text": "根据SKU查询销量",
+        "link": "/goods/query-sku-sales",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "获取采购单信息",
+        "link": "/order/purchase-order-infos",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      },
+      {
+        "text": "全托管/SHEIN自营商家库存更新",
+        "link": "/goods/stock-update",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "商家库存查询接口",
+        "link": "/stock/stock-query",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "收货仓信息查询",
+        "link": "/shipping/warehouse",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      },
+      {
+        "text": "手工下备货单",
+        "link": "/idms/create-order",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "修改和取消发货单订单",
+        "link": "/shipping/modify-delivery-order-info",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "JIT母单及子单对应关系查询接口",
+        "link": "/order/get-mothe-child-orders",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "采购单退货解决方案",
+    "link": "/packages/purchase-return",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "查询商家可选择的处理方式",
+        "link": "/purchase/return-disposals",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      },
+      {
+        "text": "查询商家退货地址",
+        "link": "/purchase/query-return-address",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询商品可退库存数",
+        "link": "/purchase/returnable-inventory",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询退货方式",
+        "link": "/purchase/return-pickup-methods",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询退货可选择的物流",
+        "link": "/purchase/return-carriers",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询退货申请单列表",
+        "link": "/purchase/return-application-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询退货申请单商品明细",
+        "link": "/purchase/return-application-detail",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询退货与报废单包裹明细",
+        "link": "/purchase/return-package-detail",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询退货与报废单列表",
+        "link": "/purchase/return-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询退货与报废单商品明细",
+        "link": "/purchase/return-product-detail",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "创建退货申请单",
+        "link": "/purchase/create-return-application",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "确认退货申请单",
+        "link": "/purchase/confirm-return-application",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "修改退货单的退货方式",
+        "link": "/purchase/update-pickup-methods",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "库存同步",
+    "link": "/packages/inventory-sync",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "库存接口-实时库存同步(仅代运营&自营模式)",
+        "link": "/stock/access",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "账单接口（全托&POP）",
+    "link": "/packages/finance",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "报账单补扣款收支明细",
+        "link": "/finance/report-adjustment-detail",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "报账单列表",
+        "link": "/finance/report-list",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "报账单销售款收支明细",
+        "link": "/finance/report-sales-detail",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      }
+    ]
+  },
+  {
+    "text": "获取定制信息",
+    "link": "/packages/customization",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "查询加车结构信息",
+        "link": "/ccst/v1/custom-info/queryaddcartinfo",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "查询任务结果",
+        "link": "/ccst/v1/composite/querytask",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      },
+      {
+        "text": "创建⽣产模板任务",
+        "link": "/ccst/v1/composite/task",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#fff1e6\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#f97316\">POST</text></svg>"
+      },
+      {
+        "text": "获取定制数据",
+        "link": "/ccst/v1/custom-infos",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      },
+      {
+        "text": "获取模版数据",
+        "link": "/ccst/v1/custom-info/templates",
+        "tag": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"16\"><rect width=\"40\" height=\"16\" rx=\"4\" fill=\"#ecfdf5\"/><text x=\"20\" y=\"12\" font-size=\"9\" font-weight=\"700\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#10b981\">GET</text></svg>"
+      }
+    ]
+  }
+]
